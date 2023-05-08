@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Início</a></li>
+                <li><a href="Detalhes.html">Detalhes</a></li>
+                <li><a href="Autor.html">Sobre o autor</a></li>
+                <li><a href="Administrador.html">Administrador</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h1 style="background-color: #D3BDB5";> Acessorios de celulares</h1>
+    <h2>Cadastro de Usúario</h2>
+        <!-- Formulário para cadastrar usuários -->
+    <form id="usuarios-form">
+        <br>
+        <label for="nome">Nome</label>
+        <input type="text"id="nome"name=nome">
+        <br>
+        <label for="sobrenome">Sobre nome</label>
+        <input type="text"id="sobrenome"name=sobrenome">
+        <br>
+        <label for="email">Email</label>
+        <input type="email"id="email"name=email">
+        <br>
+        <label for="phone">Telefone</label>
+        <input type="tel"id="phone"name=phone">
+        <br>
+        <label for="birthdate">Data de nascimento</label>
+        <input type="date"id="birthdate"name=birthdate">
+        <br>
+        <label for="endereço(rua/av)">Endereço (Rua/Av.)</label>
+        <input type="text"id="endereço(rua/av)"name=endereço(rua/av)">
+        <br>
+        <label for="numero">Número</label>
+        <input type="text"id="numero"name=numero">
+        <br>
+        <label for="cidade">Cidade</label>
+        <input type="text"id="cidade"name=cidade">
+        <br>   
+                     
+        <input type="submit"value="Cadastrar">
+        <br>
+        
+        </form>
+    <!--Tabela com a lista de usúarios cadastrados-->
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Sobre Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Data de nascimento</th>
+            <th>Endereço (Rua/AV.)</th>
+            <th>Bairro</th>
+            <th>Nº</th>
+            <th>Cidade</th>
+            <th>Editar</th>
+            <th>Apagar</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Germano</td>
+            <td>Silva</td>
+            <td>@gmail.com</td>
+            <td>(85) 9 9296-5055</td>
+            <td>12/03/1995</td>
+            <td>Rua Caulim</td>
+            <td>Manga</td>
+            <td>152</td>
+            <td>Baturité</td>
+            <td><button> class="<edit-btn>Editar</button></td>
+            <td><button> class="<delete-btn>Apagar</button></td>
+        </tr>
+       
+
+    </table>
+    
+    <footer>
+        <p><b>Rua: B, nº.1, centro, Baturité, ce. / Contato: (85) 3347-0011 Email: acessorios@gmail.com </b></p>
+        <p>Germano da Silva</p>
+        <a href="#">Administrador</a>
+    </footer>
+
+</body>
+</html>
